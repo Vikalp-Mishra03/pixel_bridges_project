@@ -182,11 +182,83 @@ main {
 }
 
 .img5 {
-    width: 30%;
+    width: 32%;
     position: absolute;
     left: auto;
     top: 65%;
-    right: -70px;
+    right: -95px;
     bottom: -423px;
     z-index: 1;
+}
+
+main .section2 {
+    padding-top: 287px;
+    padding-bottom: 165px;
+    border-radius: 20px;
+    background-color: #242d32;
+    color: #fff;
+    margin-top: 145px;
+}
+
+main .section2 .container {
+    max-width: 1280px;
+    margin-left: 125px;
+}
+
+.section2 .container .about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 .container .about h5 {
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-size: 34px;
+    line-height: 130%;
+    font-weight: 500;
+}
+
+.section2 .container .about .span {
+    font-size: 34px;
+    line-height: 130%;
+    font-weight: 500;
+    display: inline-block;
+    width: 234px;
+    height: 67px;
+    margin-top: -15px;
+    margin-left: -21px;
+    padding-top: 6px;
+    padding-left: 21px;
+    background-image: url(https://uploads-ssl.webflow.com/62f8f19040ed720b7c4501d2/62f8f9f20825c83f17227ca5_span1.svg);
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #242d32;
+}
+
+.container .about .col2 {
+    width: 62%;
+}
+
+.container .about .col2 .row {
+    display: flex;
+    margin-right: -32px;
+    padding-top: 80px;
+}
+
+.container .about .col2 .row .col2 span {
+    display: inline-block;
+    margin-right: -4px;
+    margin-left: -4px;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-radius: 3px;
+    background-color: hsla(0, 0%, 100%, 0.2);
+    line-height: 120%;
+}
+
+
+.container .about .col2 .row .col2{
+    width: 50%;
+    padding-right: 68px;
 }
