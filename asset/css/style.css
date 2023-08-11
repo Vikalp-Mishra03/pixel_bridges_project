@@ -258,7 +258,77 @@ main .section2 .container {
 }
 
 
-.container .about .col2 .row .col2{
+.container .about .col2 .row .col2 {
     width: 50%;
     padding-right: 68px;
+}
+
+.section3 {
+    display: flex;
+    padding-top: 180px;
+    padding-bottom: 241px;
+    max-width: 1280px;
+    margin-left: 100px;
+}
+
+.section3 .container {
+    display: flex;
+    align-items: center;
+
+}
+
+.section3 img {
+    width: 44%;
+    margin-right: 90px;
+    padding-top: 6px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+}
+
+.section3 .col3 .row4 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 100px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.section3 .col3 .row4 h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Souvenir, sans-serif;
+    font-size: 60px;
+    line-height: 120%;
+    font-weight: 400;
+    font-family: souviour;
+}
+
+.section3 .col3 .row4 .text2 {
+    margin-bottom: 12px;
+    margin-left: 20px;
+}
+
+.section3 .col3 .row5 .table1 {
+    margin-bottom: 54px;
+    font-size: 28px;
+    line-height: 140%;
+}
+
+.section3 .col3 .row5 span {
+    color: rgba(36, 45, 50, 0.45);
 }
