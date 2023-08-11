@@ -268,7 +268,7 @@ main .section2 .container {
     padding-top: 180px;
     padding-bottom: 241px;
     max-width: 1280px;
-    margin-left: 100px;
+    margin-left: 135px;
 }
 
 .section3 .container {
@@ -317,7 +317,9 @@ main .section2 .container {
     font-weight: 400;
     font-family: souviour;
 }
-
+.section3 .col3{
+    width: 45%;
+}
 .section3 .col3 .row4 .text2 {
     margin-bottom: 12px;
     margin-left: 20px;
